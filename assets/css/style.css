@@ -11,12 +11,14 @@ body {
 #logo {
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
-    font-size: 250%;
+    font-size: 350%;
+    padding-bottom: 15px;
 }
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 20px;
+    padding-bottom: 60px;
 }
 
 /* Hero Image*/
@@ -24,4 +26,5 @@ body {
     background: url(../images/hero-image.jpg) no-repeat center center;
     height: 400px;
     width: 100%;
+    background-size: cover;
 }
