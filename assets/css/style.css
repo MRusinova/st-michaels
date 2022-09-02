@@ -1,3 +1,13 @@
 body {
-    font-family: Arial;
+    font-family: 'Noto Serif Telugu', sans-serif;
+}
+#logo {
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 250%;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
 }
