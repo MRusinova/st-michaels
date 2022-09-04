@@ -31,6 +31,15 @@ body {
 
 /* Activities*/
 
+#activities {
+    text-align: center;
+    padding-top: 30px;
+    margin:5%;
+    background-color: #524c4c;
+    
+    
+}
+
 .activities-images {
     display: flex;
     flex-flow: row;
@@ -41,5 +50,6 @@ body {
     width: 100%;
     row-gap: 30px;
     padding: 100px;
-    border-radius: 50%;
+    
 }
+
