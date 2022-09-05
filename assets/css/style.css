@@ -11,7 +11,7 @@ body {
 #logo {
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
-    font-size: 350%;
+    font-size: 400%;
     padding-bottom: 15px;
 }
 #menu li {
@@ -32,6 +32,7 @@ body {
 /* Activities*/
 
 #activities {
+    
     text-align: center;
     padding-top: 30px;
     margin:5%;
@@ -43,13 +44,19 @@ body {
 .activities-images {
     display: flex;
     flex-flow: row;
+    padding: 0;
+    
+    
     
 }
 
 .activities-images > div {
     width: 100%;
     row-gap: 30px;
-    padding: 100px;
+    padding: 200px;
+    height: 200%;
+    flex-grow: 1;
     
+  
 }
 
