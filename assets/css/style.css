@@ -72,7 +72,7 @@ h1, h2 {
 .activities-images {
     display: flex;
     flex-flow: row;
-    padding: 0;
+    padding-left: 25px;
     
     
     
