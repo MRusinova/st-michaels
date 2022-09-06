@@ -8,25 +8,52 @@ body {
     font-family: 'Noto Serif Telugu', sans-serif;
     
 }
+
+h1, h2 {
+    font-family: 'Playfair Display', sans-serif;
+
+}
+
 #logo {
     text-align: center;
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 400%;
-    padding-bottom: 15px;
+    padding: 10px 30px;
+    font-size: 250%;
+    
 }
+
+/* navigation links*/
+
+#menu {
+    font-size: 110%;
+}
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 20px;
-    padding-bottom: 60px;
+    
+    color: #3a3a3a;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    padding-bottom: 0;
+    margin-bottom: 30px;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid;
 }
 
 /* Hero Image*/
+
 #hero-image {
     background: url(../images/hero-image.jpg) no-repeat center center;
-    height: 400px;
+    height: 600px;
     width: 100%;
     background-size: cover;
+    
 }
 
 /* Activities*/
@@ -34,11 +61,7 @@ body {
 #activities {
     
     text-align: center;
-    padding-top: 30px;
-    margin:5%;
-    background-color: #524c4c;
-    
-    
+    padding: 20px 30px;
 }
 
 .activities-images {
@@ -53,10 +76,30 @@ body {
 .activities-images > div {
     width: 100%;
     row-gap: 30px;
-    padding: 200px;
+    padding: 20px 10px;
+    margin: 0px 20px;
     height: 200%;
-    flex-grow: 1;
-    
-  
 }
+
+/* Footer*/
+
+footer {
+    height: 120px;
+}
+
+footer > ul {
+    text-align: center;
+}
+
+ul > li {
+    display: inline;
+}
+
+li i {
+    font-size: 260%;
+    margin: 2%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
 
