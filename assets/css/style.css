@@ -38,8 +38,12 @@ h1, h2 {
 #menu a {
     text-decoration: none;
     color: inherit;
-    padding-bottom: 0;
+    padding-top: 0;
     margin-bottom: 30px;
+}
+
+#menu {
+    line-height: 5px;
 }
 
 #menu a:hover {
@@ -53,6 +57,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background-size: cover;
+    padding-top: 70px;
     
 }
 
