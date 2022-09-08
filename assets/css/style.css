@@ -9,6 +9,22 @@ body {
 
 }
 
+/* Background image for first two pages*/
+
+#first {
+    background-image: url(../images/first2.jpg);
+    background-repeat: no-repeat;
+    height: 103rem;
+    background-size: cover;
+}
+
+#second {
+    background-image: url(../images/first2.jpg);
+    background-repeat: no-repeat;
+    height: 132rem;
+    background-size: cover;
+}
+
 h1, h2 {
     font-family: 'Playfair Display', sans-serif;
 
