@@ -142,3 +142,12 @@ li i {
     border-radius: 22%;
     background-color: #cccccc;
 }
+
+#submit {
+    margin: 1em;
+    background-color: orange;
+    border: solid 1px;
+    padding: 6px;
+    border-radius: 25%;
+    margin-left: 33%;
+}
