@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Noto Serif Telugu', sans-serif;
-    
+
 }
 
 h1, h2 {
@@ -131,4 +131,14 @@ li i {
 .contact {
     text-align: center;
     margin: 60px 40px;
+}
+
+/* Sign up form*/
+
+.signup {
+    margin: 7rem 32rem;
+    border: 2px solid;
+    padding: 26px;
+    border-radius: 22%;
+    background-color: #cccccc;
 }
