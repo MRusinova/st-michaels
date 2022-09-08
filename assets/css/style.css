@@ -9,7 +9,7 @@ body {
 
 }
 
-/* Background image for first two pages*/
+/* Background image for first home page*/
 
 #first {
     background-image: url(../images/first2.jpg);
@@ -17,6 +17,8 @@ body {
     height: 103rem;
     background-size: cover;
 }
+
+/* Background image for second page*/
 
 #second {
     background-image: url(../images/first2.jpg);
@@ -154,20 +156,25 @@ li i {
 .signup {
     margin: 7rem 32rem;
     border: 2px solid;
-    padding: 26px;
+    padding: 65px 25px;
     border-radius: 22%;
-    background-color: #cccccc;
+    text-align: center;
 }
 
 #submit {
-    margin: 1em;
+    
     background-color: orange;
     border: solid 1px;
-    padding: 6px;
+    
+    text-align: center;
     border-radius: 25%;
     margin-left: 33%;
 }
 
 #signup {
     background-image: url(../images/signpic.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    
 }
