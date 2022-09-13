@@ -132,9 +132,7 @@ li i {
 }
 
 #sign {
-    background-image: url(../images/sign.png);
-    background-position: cover;
-    background-repeat: no-repeat;
+    background-color: tan;
     
     
 }
