@@ -146,7 +146,7 @@ li i {
     padding: 10px 30px;
 }
 
-/* Media queries */
+/* Media queries  for tablet size screens*/
 
 @media screen and (max-width: 1200px) {
 
@@ -192,4 +192,19 @@ li i {
     padding: 20px 130px;
     margin: 40px 60px;
  }   
+}
+
+/* Media queries for smart phone size screens */
+
+@media screen and (max-width: 450px) {
+    .signup {
+        text-align: center;
+        padding: 45px 60px;
+        margin: 10px 40px;
+    }
+    #social > li {
+        float: left;
+        max-width: 35%;
+        display: inline;
+    }
 }
