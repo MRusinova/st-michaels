@@ -29,3 +29,12 @@ St. Michael's Centre is a website that would help the elderly to connect, find s
 <li>This page is to allow the user to sign up and chose which activities to be contacted about
 <li> The user can choose one, two or all three activities
 <img src="assets/images/readme/sign-up-form.png" alt="">
+
+### Testing
+<li>I had a lot of trouble centering the images for the activities. Used flexbox as I did a bit of research and it seems to be the recomended way of positioning objects, but as that was a topic not covered in the course material I struggled a bit and it took a lot of trial and error. After trying a lot of different ways there was always a little bit more space on the right side of them until one evening I just thought to try "text-align: center" and it worked.
+<li>Another thing I struggled with was positioning the hero image until I tried "background-size: cover" (the code for that I got from w3schools which I will include in resources)
+<li>I wanted to add background to the pages but after a lot of struggles of sizing and positioning (I did manage to get it in place) I removed it as I thought it looks good as it is and I was getting pushed for time
+
+### Validator Testing
+<li>HTML
+<li>No errors were found when passing through the official w3c validator
