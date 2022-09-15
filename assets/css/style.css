@@ -174,12 +174,23 @@ li i {
         border: none;
     }
 
+    #hero-image {
+        width: 1050px;
+        height: 600px;
+    }
+
     .activities-images {
         display: flex;
         flex-flow: column;
         max-width: 65%;
-        
+        flex-direction: right;
+        flex-grow: 4;    
     }
+
+    .pictures {
+        width: auto;
+        
+
 
     #activities {
         font-size: 0.6;
@@ -187,7 +198,7 @@ li i {
         width: 100%;
         left: 0;
         margin: 0px;
-        padding: 0px;
+        padding: 35px;
         
     }
 
@@ -206,23 +217,35 @@ li i {
     }
 
  .signup {
-    text-align: center;
+    /*text-align: center;
     padding: 20px 130px;
-    margin: 40px 60px;
+    margin: 20px 40px;*/
+        width:500px;
+        margin-left: 250px;
+        margin-top: 40px;
+        padding: 20px 20px 170px 20px;
  }   
 }
 
 /* Media queries for smart phone size screens */
 
-@media screen and (max-width: 450px) {
-    .signup {
+@media screen and (max-width: 900px) {
+    
+    #logo {
+        width: 150px;
+        margin-left: 230px;
         text-align: center;
-        padding: 45px 60px;
-        margin: 10px 40px;
     }
+    
+    #signup {
+        width:200px;
+        margin-left: 250px;
+        margin-top: 40px;
+        padding: 20px 20px 170px 20px;
+    }
+
     #social > li {
         float: left;
         max-width: 35%;
-        display: inline;
     }
 }
