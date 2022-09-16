@@ -77,6 +77,8 @@ h1, h2, h3 {
 .activities-images {
     display: flex;
     flex-flow: row;
+    height: 100%;
+    width: 100%;
 }
 
 .activities-images > div {
@@ -111,7 +113,7 @@ li i {
     border: 0;
     overflow: 0;
     margin: 0;
-    
+
 }
 
 .history {
