@@ -37,4 +37,11 @@ St. Michael's Centre is a website that would help the elderly to connect, find s
 
 ### Validator Testing
 <li>HTML
-<li>No errors were found when passing through the official w3c validator
+<img src="assets/images/readme/index-html-check.png" alt="">
+<img src="assets/images/readme/about-html-check.png" alt="">
+I have left this error as my mentor said I should leave the action empty as I dont actually want the user to register and one of the requirements is for the user not to have to use the back button to get back to my website
+<img src="assets/images/readme/sign-up-html-check.png" alt="">
+<li>Lighthouse
+<img src="assets/images/readme/lighthouse.png" alt="">
+<li>CSS
+<img src="assets/images/readme/css-check.png" alt="">
