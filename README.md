@@ -52,19 +52,20 @@ I have left this error as my mentor said I should leave the action empty as I do
 
 ### Credits
 ### Media
-<li>All images have been taken from https://www.pexels.com/
+<li>All images have been taken from (https://www.pexels.com/)
 <li>Used [Canva](https://www.canva.com/) to resize my images
 
 ### Content
 <li>The code for the social media links was taken from Love Running project
 <li>The information on how to use flexbox was taken from W3Schools
 <li>Used code from Azharul Rafy on youtube to get rid of white space on the side of my images for activities for media queries
-<li>Copied and pasted information about Yoga from https://nytimes.com
+<li>Copied and pasted information about Yoga from (https://nytimes.com)
 <li>Copied some information about St. Michael's Centre from their original website
 <li>For my form I used code from my form challenge from Love Running
 <li>Centered my form with display: flex; source - (https://blog.hubspot.com)
 <li>The icons for the activities were taken from Font Awesome
 <li>The fonts used were taken from Google fonts
+
 ### Deployment
 <li>The site was deployed to GitHub pages. The steps to deploy are as follows:
 <li>In the GitHub repository, navigate to the Settings tab
